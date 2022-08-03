@@ -1,4 +1,7 @@
-# restylist
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/68877945/182547732-4ebbf251-23f3-4813-bcf8-b6fd34e4a02b.svg" alt="Restylist" height="80px"></a>
+  </a>
+</h1>
 
 This template should help get you started developing with Vue 3 in Vite.
 
