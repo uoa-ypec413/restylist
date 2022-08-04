@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Silkscreen";
+  font-weight: normal;
+  src: local("Silkscreen"), url("/fonts/slkscr.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Silkscreen Bold";
+  font-weight: bold;
+  src: local("Silkscreen-Bold"), url("/fonts/slkscrb.ttf") format("truetype");
+}
+
+body {
+  font-family: 'Silkscreen';
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.17rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 0.83rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 0.67rem;
+  font-weight: bold;
+}
