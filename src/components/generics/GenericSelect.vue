@@ -14,7 +14,7 @@ const props = defineProps<{
     <p>{{ props.name }}</p>
     <div class="border-[1px] border-black rounded-sm">
       <select
-        class="bg-cherry-blossom border-[2px] border-t-white border-t-white border-r-black border-b-black p-2 w-[300px] text-md rounded-sm focus-visible:outline-none"
+        class="bg-cherry-blossom border-[2px] border-l-white border-t-white border-r-black border-b-black p-2 w-[300px] text-md rounded-sm focus-visible:outline-none"
       >
         <option
           v-for="option in props.options"

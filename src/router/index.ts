@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import EntryView from "../views/EntryView.vue";
+import PageNotFoundView from "@/views/PageNotFoundView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,10 @@ const router = createRouter({
       path: "/entry",
       name: "entry",
       component: EntryView,
+    },
+    {
+      path: "/:pathMatch(.*)*",
+      component: PageNotFoundView,
     },
   ],
 });
